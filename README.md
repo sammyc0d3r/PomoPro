@@ -4,6 +4,7 @@
 
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Material Design](https://img.shields.io/badge/Material%20Design-757575.svg?style=for-the-badge&logo=material-design&logoColor=white)
 
 **Elevate your productivity with focused work sessions**
@@ -37,6 +38,18 @@ flutter pub get
 flutter run
 ```
 
+## ⚠️ Important Setup Note
+
+After cloning the repository, you need to create a `lib` folder in the root directory and move the following files into it:
+```
+lib/
+  ├── screens/     # All screen files
+  ├── services/    # All service files
+  └── main.dart    # Main application file
+```
+
+These files are available in the root directory of the repository and must be moved to the `lib` folder for the project to work correctly.
+
 ## 💡 Usage
 
 1. **Sign Up/Login** - Create your account or login securely
@@ -47,6 +60,7 @@ flutter run
 ## 🛠️ Tech Stack
 
 - **Frontend:** Flutter & Dart
+- **Backend API:** Node.js & Firebase ([API Repository](https://github.com/sammyc0d3r/pomo-track-api))
 - **Authentication:** Firebase Auth
 - **State Management:** Provider
 - **Design:** Material Design 3
